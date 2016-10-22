@@ -1,0 +1,2338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="73" passed="70">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully logged in with Super User - qait_super]]>
+    </line>
+    <line>
+      <![CDATA[ *** Creating a new customer ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created a new customer with name = QAIT Customer 1476356519794  and id = https://test.skytap.com/customers/12980]]>
+    </line>
+    <line>
+      <![CDATA[Created New Admin User via Super with Name = Admin1476356558900 and id = https://test.skytap.com/customers/12980/users/305546]]>
+    </line>
+    <line>
+      <![CDATA[ *** Activating User ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully activated Admin User (Created Via Super) with id = https://test.skytap.com/customers/12980/users/305546]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with user - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[URL of Admin User is - https://test.skytap.com/users/274754]]>
+    </line>
+    <line>
+      <![CDATA[ *** Creating Admin User ***]]>
+    </line>
+    <line>
+      <![CDATA[Created New Admin User with Name = Admin1476356664072 and id = https://test.skytap.com/users/305548]]>
+    </line>
+    <line>
+      <![CDATA[ *** Activating User ***]]>
+    </line>
+    <line>
+      <![CDATA[ Successfully activated Admin User (Created Via Admin) with id = https://test.skytap.com/users/305548]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Creating Non-Admin User ***]]>
+    </line>
+    <line>
+      <![CDATA[Created Non-Admin User with Name = NonAdmin1476356697543 and id = https://test.skytap.com/users/305550]]>
+    </line>
+    <line>
+      <![CDATA[ *** Activating User with short Password ***]]>
+    </line>
+    <line>
+      <![CDATA[ *** Activating User ***]]>
+    </line>
+    <line>
+      <![CDATA[ Successfully activated Non - Admin User (Created Via Admin) with id = https://test.skytap.com/users/305550]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Deleting Non-Admin User ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully deleted Non admin user with id = https://test.skytap.com/users/305550]]>
+    </line>
+    <line>
+      <![CDATA[ *** Deleting Admin User ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully deleted admin user with id = https://test.skytap.com/users/305548]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Super User - qait_super]]>
+    </line>
+    <line>
+      <![CDATA[Successfully deleted customer with name = QAIT Customer 1476356519794   and id = https://test.skytap.com/customers/12980]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Asset Upload ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully uploaded asset with id = https://test.skytap.com/assets/42210]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Deleted asset with id = https://test.skytap.com/assets/42210]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting Projects Test ***]]>
+    </line>
+    <line>
+      <![CDATA[Created Project with Name = QAIT Automation Project 1476356794650 and ID =https://test.skytap.com/projects/531558]]>
+    </line>
+    <line>
+      <![CDATA[Added Template to Project successfully]]>
+    </line>
+    <line>
+      <![CDATA[Added Environment to Project successfully]]>
+    </line>
+    <line>
+      <![CDATA[Added Asset to Project successfully]]>
+    </line>
+    <line>
+      <![CDATA[Added User to Project successfully]]>
+    </line>
+    <line>
+      <![CDATA[Deleted Project successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting Templates and Environment Test ***]]>
+    </line>
+    <line>
+      <![CDATA[Searched template successfully]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Creating Template ***]]>
+    </line>
+    <line>
+      <![CDATA[Created New Template with Name = QAIT Automation Template 1476356866660 and id = https://test.skytap.com/templates/334817]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Creating an Environment ***]]>
+    </line>
+    <line>
+      <![CDATA[Created New Environment with Name = QAIT Automation Environment 1476356877707 and id = https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[Added template to Environment Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ISO successfuly inserted to Environment https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[VM Level Suspend]]>
+    </line>
+    <line>
+      <![CDATA[VM Level Power-Off Success]]>
+    </line>
+    <line>
+      <![CDATA[Environment Level VM Run Success]]>
+    </line>
+    <line>
+      <![CDATA[Environment Level Suspend Success]]>
+    </line>
+    <line>
+      <![CDATA[Environment Level Shut-Down Success]]>
+    </line>
+    <line>
+      <![CDATA[Environment Level Power-Off Success]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Creating a new sharing portal ***]]>
+    </line>
+    <line>
+      <![CDATA[Created Sharing Portal with URL = https://test.skytap.com/configurations/17527688/publish_sets/84480?created=success]]>
+    </line>
+    <line>
+      <![CDATA[Portal URL = https://test.skytap.com/vms/06c401dc92387760967ddd3e6cb1b298/desktops]]>
+    </line>
+    <line>
+      <![CDATA[Save Environment to template success with id = https://test.skytap.com/templates/334821]]>
+    </line>
+    <line>
+      <![CDATA[Delete VM Success, VM id = 7997126]]>
+    </line>
+    <line>
+      <![CDATA[Delete Environment Success https://test.skytap.com/configurations/17527816?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Fetching Public IP ***]]>
+    </line>
+    <line>
+      <![CDATA[Public IP Added public IP address 199.204.217.187 in region US-West. Successfully fetched]]>
+    </line>
+    <line>
+      <![CDATA[ *** Releasing PIP ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully released PIP Added public IP address 199.204.217.187 in region US-West.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Super User - qait_super]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Usage Report Successfully Generated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Super User - qait_super]]>
+    </line>
+    <line>
+      <![CDATA[Help Page Accessible]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Help Page Accessible]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting Published Services Test *** ]]>
+    </line>
+    <line>
+      <![CDATA[Environment Used for PS Testing https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[Publiched Service address = services-uswest.test.skytap.com:24847]]>
+    </line>
+    <line>
+      <![CDATA[ Attached Port No. 3389]]>
+    </line>
+    <line>
+      <![CDATA[Publiched Service address services-uswest.test.skytap.com:24847]]>
+    </line>
+    <line>
+      <![CDATA[ Attached Port No. 8080]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Super User - qait_super]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Connectivity Test Results ***]]>
+    </line>
+    <line>
+      <![CDATA[Supported browser = Passed]]>
+    </line>
+    <line>
+      <![CDATA[Client connection = Passed]]>
+    </line>
+    <line>
+      <![CDATA[Latency = 9ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Fetching Public IPs for VPN TEST ***]]>
+    </line>
+    <line>
+      <![CDATA[IP Address successfully fetched for SoftLayer (London)]]>
+    </line>
+    <line>
+      <![CDATA[185.64.244.154]]>
+    </line>
+    <line>
+      <![CDATA[IP Address successfully fetched for US-West]]>
+    </line>
+    <line>
+      <![CDATA[199.204.217.187]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with Creating Environments for VPN TEST ***]]>
+    </line>
+    <line>
+      <![CDATA[IP of - SoftLayer (London) Environment 871- is 10.0.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly created environment for Region SoftLayer (London)with id https://test.skytap.com/configurations/17527880?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[IP of - US-West Environment 871 - is 20.0.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Successfuly created environment for Region US-West with id https://test.skytap.com/configurations/17527884?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with creation of VPN for SoftLayer (London) ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created VPN with name = SoftLayer (London) VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237105]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with creation of VPN for US-West ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created VPN with name = US-West VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237107]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with connecting VPNs to Environment ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully connected VPN - SoftLayer (London) VPN 871 - to environment - SoftLayer (London) Environment 871]]>
+    </line>
+    <line>
+      <![CDATA[Successfully connected VPN- US-West VPN 871 - to environment - US-West Environment 871]]>
+    </line>
+    <line>
+      <![CDATA[ *** Testing VPN - SoftLayer (London) VPN 871 ***]]>
+    </line>
+    <line>
+      <![CDATA[SoftLayer (London) VPN Results:]]>
+    </line>
+    <line>
+      <![CDATA[Phase 1 result Pass]]>
+    </line>
+    <line>
+      <![CDATA[Phase 2 result Pass]]>
+    </line>
+    <line>
+      <![CDATA[Remote Ping Address Pass]]>
+    </line>
+    <line>
+      <![CDATA[ *** Testing VPN - US-West VPN 871 ***]]>
+    </line>
+    <line>
+      <![CDATA[US-West VPN Results:]]>
+    </line>
+    <line>
+      <![CDATA[Phase 1 result Pass]]>
+    </line>
+    <line>
+      <![CDATA[Phase 2 result Pass]]>
+    </line>
+    <line>
+      <![CDATA[Remote Ping Address Pass]]>
+    </line>
+    <line>
+      <![CDATA[ *** Deleting VPNs ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Deleted VPN - SoftLayer (London) VPN 871]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Deleted VPN - US-West VPN 871]]>
+    </line>
+    <line>
+      <![CDATA[ *** Deleting Environments Linked to VPNs ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully deleted environment - SoftLayer (London) Environment 871]]>
+    </line>
+    <line>
+      <![CDATA[Successfully deleted environment - US-West Environment 871]]>
+    </line>
+    <line>
+      <![CDATA[ *** Releasing PIPs ***]]>
+    </line>
+    <line>
+      <![CDATA[Successfully released PIP 185.64.244.154 for SoftLayer (London) Region]]>
+    </line>
+    <line>
+      <![CDATA[Successfully released PIP 199.204.217.187 for US-West Region]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[ *** Starting with creating a new Schedule *** ]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created schedule with Admin with id = https://test.skytap.com/schedules/1991920/edit Scheduled at 10/13/2016 7:00 PM New Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created schedule by Non-Admin with id = https://test.skytap.com/schedules/1991922/edit Scheduled at 10/13/2016 7:00 PM New Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Schedules owned by me found]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+    </line>
+    <line>
+      <![CDATA[Deleting All Environments]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Deleted All Environments in Account]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Deleted All Templates in Account]]>
+    </line>
+    <line>
+      <![CDATA[Export template URL = ftp://6s5uyu99D:8NETu9YPlX@ftp-uswest.test.skytap.com/upload/vm.7z]]>
+    </line>
+    <line>
+      <![CDATA[Export Job Successfully deleted]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2534304" started-at="2016-10-13T11:01:24Z" finished-at="2016-10-13T11:43:38Z">
+    <groups>
+    </groups>
+    <test name="Skytap Test" duration-ms="2534304" started-at="2016-10-13T11:01:24Z" finished-at="2016-10-13T11:43:38Z">
+      <class name="com.test.skytap.L_PublishedServicesTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="beforeClass" is-config="true" duration-ms="5892" started-at="2016-10-13T17:05:08Z" finished-at="2016-10-13T17:05:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="addByName()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="addByName" duration-ms="13851" started-at="2016-10-13T17:05:14Z" finished-at="2016-10-13T17:05:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting Published Services Test *** ]]>
+            </line>
+            <line>
+              <![CDATA[Environment Used for PS Testing https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+            <line>
+              <![CDATA[Publiched Service address = services-uswest.test.skytap.com:24847]]>
+            </line>
+            <line>
+              <![CDATA[ Attached Port No. 3389]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addByName -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:05:28Z" finished-at="2016-10-13T17:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addByName status=SUCCESS method=L_PublishedServicesTest.addByName()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948] output= *** Starting Published Services Test *** ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="addByPort()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="addByPort" duration-ms="13751" started-at="2016-10-13T17:05:28Z" finished-at="2016-10-13T17:05:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Publiched Service address services-uswest.test.skytap.com:24847]]>
+            </line>
+            <line>
+              <![CDATA[ Attached Port No. 8080]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addByPort -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:05:42Z" finished-at="2016-10-13T17:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addByPort status=SUCCESS method=L_PublishedServicesTest.addByPort()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948] output=Publiched Service address services-uswest.test.skytap.com:24847]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.L_PublishedServicesTest@e26948]" name="afterClass" is-config="true" duration-ms="432" started-at="2016-10-13T17:05:42Z" finished-at="2016-10-13T17:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.L_PublishedServicesTest -->
+      <class name="com.test.skytap.R_ConnectivityTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.R_ConnectivityTest@3f4d3d]" name="beforeClass" is-config="true" duration-ms="7215" started-at="2016-10-13T17:06:26Z" finished-at="2016-10-13T17:06:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Super User - qait_super]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="connectivity()[pri:0, instance:com.test.skytap.R_ConnectivityTest@3f4d3d]" name="connectivity" duration-ms="7253" started-at="2016-10-13T17:06:33Z" finished-at="2016-10-13T17:06:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+            <line>
+              <![CDATA[ *** Connectivity Test Results ***]]>
+            </line>
+            <line>
+              <![CDATA[Supported browser = Passed]]>
+            </line>
+            <line>
+              <![CDATA[Client connection = Passed]]>
+            </line>
+            <line>
+              <![CDATA[Latency = 9ms]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectivity -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.R_ConnectivityTest@3f4d3d]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:06:40Z" finished-at="2016-10-13T17:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=connectivity status=SUCCESS method=R_ConnectivityTest.connectivity()[pri:0, instance:com.test.skytap.R_ConnectivityTest@3f4d3d] output=Successfully logged in with Admin User - Automation_qait]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.R_ConnectivityTest@3f4d3d]" name="afterClass" is-config="true" duration-ms="490" started-at="2016-10-13T17:06:40Z" finished-at="2016-10-13T17:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.R_ConnectivityTest -->
+      <class name="com.test.skytap.G_PIPTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="beforeClass" is-config="true" duration-ms="6915" started-at="2016-10-13T16:58:14Z" finished-at="2016-10-13T16:58:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fetchPIP()[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="fetchPIP" duration-ms="4456" started-at="2016-10-13T16:58:21Z" finished-at="2016-10-13T16:58:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Fetching Public IP ***]]>
+            </line>
+            <line>
+              <![CDATA[Public IP Added public IP address 199.204.217.187 in region US-West. Successfully fetched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fetchPIP -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:58:26Z" finished-at="2016-10-13T16:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fetchPIP status=SUCCESS method=G_PIPTest.fetchPIP()[pri:0, instance:com.test.skytap.G_PIPTest@83b407] output= *** Fetching Public IP ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="releasePIP()[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="releasePIP" duration-ms="4256" started-at="2016-10-13T16:58:26Z" finished-at="2016-10-13T16:58:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Releasing PIP ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully released PIP Added public IP address 199.204.217.187 in region US-West.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- releasePIP -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:58:30Z" finished-at="2016-10-13T16:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=releasePIP status=SUCCESS method=G_PIPTest.releasePIP()[pri:0, instance:com.test.skytap.G_PIPTest@83b407] output= *** Releasing PIP ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.G_PIPTest@83b407]" name="afterClass" is-config="true" duration-ms="439" started-at="2016-10-13T16:58:30Z" finished-at="2016-10-13T16:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.G_PIPTest -->
+      <class name="com.test.skytap.K_SharingPortalTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="beforeClass" is-config="true" duration-ms="5951" started-at="2016-10-13T17:01:47Z" finished-at="2016-10-13T17:01:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createSharingPortal()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="createSharingPortal" duration-ms="4507" started-at="2016-10-13T17:01:53Z" finished-at="2016-10-13T17:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSharingPortal -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2295" started-at="2016-10-13T17:01:58Z" finished-at="2016-10-13T17:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:02:00Z" finished-at="2016-10-13T17:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createSharingPortal status=SUCCESS method=K_SharingPortalTest.createSharingPortal()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="noPasswordPortalSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="noPasswordPortalSingleVM" duration-ms="1762" started-at="2016-10-13T17:02:00Z" finished-at="2016-10-13T17:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPasswordPortalSingleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2123" started-at="2016-10-13T17:02:02Z" finished-at="2016-10-13T17:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:02:04Z" finished-at="2016-10-13T17:02:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noPasswordPortalSingleVM status=SUCCESS method=K_SharingPortalTest.noPasswordPortalSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="passwordPortalSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="passwordPortalSingleVM" duration-ms="10481" started-at="2016-10-13T17:02:04Z" finished-at="2016-10-13T17:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordPortalSingleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2121" started-at="2016-10-13T17:02:14Z" finished-at="2016-10-13T17:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:02:16Z" finished-at="2016-10-13T17:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordPortalSingleVM status=SUCCESS method=K_SharingPortalTest.passwordPortalSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="AccessISTSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="AccessISTSingleVM" duration-ms="5923" started-at="2016-10-13T17:02:16Z" finished-at="2016-10-13T17:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessISTSingleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2265" started-at="2016-10-13T17:02:22Z" finished-at="2016-10-13T17:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:02:25Z" finished-at="2016-10-13T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessISTSingleVM status=SUCCESS method=K_SharingPortalTest.AccessISTSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="powerActionsSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="powerActionsSingleVM" duration-ms="62861" started-at="2016-10-13T17:02:25Z" finished-at="2016-10-13T17:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerActionsSingleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2121" started-at="2016-10-13T17:03:27Z" finished-at="2016-10-13T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:03:30Z" finished-at="2016-10-13T17:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerActionsSingleVM status=SUCCESS method=K_SharingPortalTest.powerActionsSingleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="noPasswordPortalMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="noPasswordPortalMultipleVM" duration-ms="17984" started-at="2016-10-13T17:03:30Z" finished-at="2016-10-13T17:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPasswordPortalMultipleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2161" started-at="2016-10-13T17:03:48Z" finished-at="2016-10-13T17:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:03:50Z" finished-at="2016-10-13T17:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noPasswordPortalMultipleVM status=SUCCESS method=K_SharingPortalTest.noPasswordPortalMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="passwordPortalMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="passwordPortalMultipleVM" duration-ms="10262" started-at="2016-10-13T17:03:50Z" finished-at="2016-10-13T17:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordPortalMultipleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2193" started-at="2016-10-13T17:04:00Z" finished-at="2016-10-13T17:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:04:02Z" finished-at="2016-10-13T17:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordPortalMultipleVM status=SUCCESS method=K_SharingPortalTest.passwordPortalMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="AccessISTMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="AccessISTMultipleVM" duration-ms="5557" started-at="2016-10-13T17:04:02Z" finished-at="2016-10-13T17:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessISTMultipleVM -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2236" started-at="2016-10-13T17:04:08Z" finished-at="2016-10-13T17:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="powerActionsMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="powerActionsMultipleVM" duration-ms="55560" started-at="2016-10-13T17:04:10Z" finished-at="2016-10-13T17:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerActionsMultipleVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:04:10Z" finished-at="2016-10-13T17:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessISTMultipleVM status=SUCCESS method=K_SharingPortalTest.AccessISTMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="clickLeavePageOnPopUp()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="clickLeavePageOnPopUp" is-config="true" duration-ms="2125" started-at="2016-10-13T17:05:06Z" finished-at="2016-10-13T17:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeavePageOnPopUp -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:05:08Z" finished-at="2016-10-13T17:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerActionsMultipleVM status=SUCCESS method=K_SharingPortalTest.powerActionsMultipleVM()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.K_SharingPortalTest@194d431]" name="afterClass" is-config="true" duration-ms="515" started-at="2016-10-13T17:05:08Z" finished-at="2016-10-13T17:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.K_SharingPortalTest -->
+      <class name="com.test.skytap.Q_ImportExportTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="beforeClass" is-config="true" duration-ms="6264" started-at="2016-10-13T17:05:42Z" finished-at="2016-10-13T17:05:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="exportVM()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="exportVM" duration-ms="11092" started-at="2016-10-13T17:05:48Z" finished-at="2016-10-13T17:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:05:59Z" finished-at="2016-10-13T17:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exportVM status=SUCCESS method=Q_ImportExportTest.exportVM()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="FAIL" signature="importVM()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="importVM" duration-ms="25468" started-at="2016-10-13T17:05:59Z" finished-at="2016-10-13T17:06:25Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Command duration or timeout: 20.34 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e31302-cd74-4c04-b877-101305bb45e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Command duration or timeout: 20.34 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e31302-cd74-4c04-b877-101305bb45e1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.test.skytap.BaseFixture.uploadVM(BaseFixture.java:317)
+	at com.test.skytap.Q_Import_Export.importVM(Q_Import_Export.java:45)
+	at com.test.skytap.Q_ImportExportTest.importVM(Q_ImportExportTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>._loadURIWithFlags(chrome://browser/content/browser.js:862)
+	at <anonymous class>.loadURIWithFlags(chrome://browser/content/tabbrowser.xml:6619)
+	at <anonymous class>.loadURI(chrome://global/content/bindings/browser.xml:114)
+	at <anonymous class>.loadURI(chrome://browser/content/tabbrowser.xml:3746)
+	at <anonymous class>.FirefoxDriver.prototype.get(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10641)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="fail" is-config="true" duration-ms="191" started-at="2016-10-13T17:06:25Z" finished-at="2016-10-13T17:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=importVM status=FAILURE method=Q_ImportExportTest.importVM()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.Q_ImportExportTest@1baeedf]" name="afterClass" is-config="true" duration-ms="475" started-at="2016-10-13T17:06:25Z" finished-at="2016-10-13T17:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.Q_ImportExportTest -->
+      <class name="com.test.skytap.V_ScheduleTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="beforeClass" is-config="true" duration-ms="5789" started-at="2016-10-13T17:12:02Z" finished-at="2016-10-13T17:12:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createScheduleAdmin()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="createScheduleAdmin" duration-ms="4653" started-at="2016-10-13T17:12:08Z" finished-at="2016-10-13T17:12:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with creating a new Schedule *** ]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created schedule with Admin with id = https://test.skytap.com/schedules/1991920/edit Scheduled at 10/13/2016 7:00 PM New Delhi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createScheduleAdmin -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:12:12Z" finished-at="2016-10-13T17:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createScheduleAdmin status=SUCCESS method=V_ScheduleTest.createScheduleAdmin()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311] output= *** Starting with creating a new Schedule *** ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createScheduleNonAdmin()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="createScheduleNonAdmin" duration-ms="22036" started-at="2016-10-13T17:12:12Z" finished-at="2016-10-13T17:12:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully created schedule by Non-Admin with id = https://test.skytap.com/schedules/1991922/edit Scheduled at 10/13/2016 7:00 PM New Delhi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createScheduleNonAdmin -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:12:35Z" finished-at="2016-10-13T17:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createScheduleNonAdmin status=SUCCESS method=V_ScheduleTest.createScheduleNonAdmin()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311] output=Successfully created schedule by Non-Admin with id = https://test.skytap.com/schedules/1991922/edit Scheduled at 10/13/2016 7:00 PM New Delhi]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="schedulesList()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="schedulesList" duration-ms="1081" started-at="2016-10-13T17:12:35Z" finished-at="2016-10-13T17:12:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Schedules owned by me found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- schedulesList -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:12:36Z" finished-at="2016-10-13T17:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=schedulesList status=SUCCESS method=V_ScheduleTest.schedulesList()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311] output=Schedules owned by me found]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.V_ScheduleTest@42a311]" name="afterClass" is-config="true" duration-ms="518" started-at="2016-10-13T17:12:36Z" finished-at="2016-10-13T17:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.V_ScheduleTest -->
+      <class name="com.test.skytap.I_UsageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="beforeClass" is-config="true" duration-ms="86562" started-at="2016-10-13T16:58:30Z" finished-at="2016-10-13T16:59:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="svmUsage()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="svmUsage" duration-ms="52075" started-at="2016-10-13T16:59:57Z" finished-at="2016-10-13T17:00:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":".run-vm"}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c1f3b83-2fa9-4700-a5a0-76203e2d52e9
+*** Element info: {Using=css selector, value=.run-vm}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".run-vm"}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c1f3b83-2fa9-4700-a5a0-76203e2d52e9
+*** Element info: {Using=css selector, value=.run-vm}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.test.skytap.I_Usage.svmUsage(I_Usage.java:17)
+	at com.test.skytap.I_UsageTest.svmUsage(I_UsageTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".run-vm"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- svmUsage -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="143" started-at="2016-10-13T17:00:49Z" finished-at="2016-10-13T17:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=svmUsage status=FAILURE method=I_UsageTest.svmUsage()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="storageUsage()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="storageUsage" duration-ms="3428" started-at="2016-10-13T17:00:49Z" finished-at="2016-10-13T17:00:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- storageUsage -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:00:53Z" finished-at="2016-10-13T17:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storageUsage status=SUCCESS method=I_UsageTest.storageUsage()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="svmNoGroupingCurrentMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="svmNoGroupingCurrentMonth" duration-ms="3009" started-at="2016-10-13T17:00:53Z" finished-at="2016-10-13T17:00:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- svmNoGroupingCurrentMonth -->
+        <test-method status="PASS" signature="storageNoGroupingCurrentMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="storageNoGroupingCurrentMonth" duration-ms="2970" started-at="2016-10-13T17:00:56Z" finished-at="2016-10-13T17:00:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- storageNoGroupingCurrentMonth -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:00:56Z" finished-at="2016-10-13T17:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=svmNoGroupingCurrentMonth status=SUCCESS method=I_UsageTest.svmNoGroupingCurrentMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="svmNoGroupingLastMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="svmNoGroupingLastMonth" duration-ms="3107" started-at="2016-10-13T17:00:59Z" finished-at="2016-10-13T17:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- svmNoGroupingLastMonth -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:00:59Z" finished-at="2016-10-13T17:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storageNoGroupingCurrentMonth status=SUCCESS method=I_UsageTest.storageNoGroupingCurrentMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:02Z" finished-at="2016-10-13T17:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=svmNoGroupingLastMonth status=SUCCESS method=I_UsageTest.svmNoGroupingLastMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="storageNoGroupingLastMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="storageNoGroupingLastMonth" duration-ms="4198" started-at="2016-10-13T17:01:02Z" finished-at="2016-10-13T17:01:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- storageNoGroupingLastMonth -->
+        <test-method status="PASS" signature="svmUsageSuper()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="svmUsageSuper" duration-ms="18684" started-at="2016-10-13T17:01:06Z" finished-at="2016-10-13T17:01:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Super User - qait_super]]>
+            </line>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- svmUsageSuper -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:06Z" finished-at="2016-10-13T17:01:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storageNoGroupingLastMonth status=SUCCESS method=I_UsageTest.storageNoGroupingLastMonth()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="storageUsageSuper()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="storageUsageSuper" duration-ms="10358" started-at="2016-10-13T17:01:25Z" finished-at="2016-10-13T17:01:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usage Report Successfully Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- storageUsageSuper -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:25Z" finished-at="2016-10-13T17:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=svmUsageSuper status=SUCCESS method=I_UsageTest.svmUsageSuper()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Successfully logged in with Super User - qait_super]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="afterClass" is-config="true" duration-ms="453" started-at="2016-10-13T17:01:35Z" finished-at="2016-10-13T17:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:35Z" finished-at="2016-10-13T17:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storageUsageSuper status=SUCCESS method=I_UsageTest.storageUsageSuper()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19] output=Usage Report Successfully Generated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="sendEmailableReport()[pri:0, instance:com.test.skytap.I_UsageTest@19d1a19]" name="sendEmailableReport" is-config="true" duration-ms="926" started-at="2016-10-13T17:13:39Z" finished-at="2016-10-13T17:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailableReport -->
+      </class> <!-- com.test.skytap.I_UsageTest -->
+      <class name="com.test.skytap.A_SuperUserTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="beforeClass" is-config="true" duration-ms="9058" started-at="2016-10-13T16:31:24Z" finished-at="2016-10-13T16:31:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Super User - qait_super]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="createCustomer" duration-ms="55645" started-at="2016-10-13T16:31:33Z" finished-at="2016-10-13T16:32:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Creating a new customer ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created a new customer with name = QAIT Customer 1476356519794  and id = https://test.skytap.com/customers/12980]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T16:32:29Z" finished-at="2016-10-13T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomer status=SUCCESS method=A_SuperUserTest.createCustomer()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2] output= *** Creating a new customer ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createAdminUser()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="createAdminUser" duration-ms="21209" started-at="2016-10-13T16:32:29Z" finished-at="2016-10-13T16:32:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Created New Admin User via Super with Name = Admin1476356558900 and id = https://test.skytap.com/customers/12980/users/305546]]>
+            </line>
+            <line>
+              <![CDATA[ *** Activating User ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully activated Admin User (Created Via Super) with id = https://test.skytap.com/customers/12980/users/305546]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdminUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="afterClass" is-config="true" duration-ms="627" started-at="2016-10-13T16:32:50Z" finished-at="2016-10-13T16:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:32:50Z" finished-at="2016-10-13T16:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAdminUser status=SUCCESS method=A_SuperUserTest.createAdminUser()[pri:0, instance:com.test.skytap.A_SuperUserTest@41eaa2] output=Created New Admin User via Super with Name = Admin1476356558900 and id = https://test.skytap.com/customers/12980/users/305546]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- com.test.skytap.A_SuperUserTest -->
+      <class name="com.test.skytap.D_ProjectsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="beforeClass" is-config="true" duration-ms="6085" started-at="2016-10-13T16:36:27Z" finished-at="2016-10-13T16:36:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="createProject" duration-ms="2466" started-at="2016-10-13T16:36:33Z" finished-at="2016-10-13T16:36:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting Projects Test ***]]>
+            </line>
+            <line>
+              <![CDATA[Created Project with Name = QAIT Automation Project 1476356794650 and ID =https://test.skytap.com/projects/531558]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="addTemplateToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="addTemplateToProject" duration-ms="4512" started-at="2016-10-13T16:36:35Z" finished-at="2016-10-13T16:36:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added Template to Project successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addTemplateToProject -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:36:35Z" finished-at="2016-10-13T16:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProject status=SUCCESS method=D_ProjectsTest.createProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output= *** Starting Projects Test ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="addEnvironmentToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="addEnvironmentToProject" duration-ms="44098" started-at="2016-10-13T16:36:40Z" finished-at="2016-10-13T16:37:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added Environment to Project successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEnvironmentToProject -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:36:40Z" finished-at="2016-10-13T16:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTemplateToProject status=SUCCESS method=D_ProjectsTest.addTemplateToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output=Added Template to Project successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:24Z" finished-at="2016-10-13T16:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEnvironmentToProject status=SUCCESS method=D_ProjectsTest.addEnvironmentToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output=Added Environment to Project successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="addAssetToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="addAssetToProject" duration-ms="2218" started-at="2016-10-13T16:37:24Z" finished-at="2016-10-13T16:37:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added Asset to Project successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAssetToProject -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:26Z" finished-at="2016-10-13T16:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAssetToProject status=SUCCESS method=D_ProjectsTest.addAssetToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output=Added Asset to Project successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="addUserToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="addUserToProject" duration-ms="1789" started-at="2016-10-13T16:37:26Z" finished-at="2016-10-13T16:37:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added User to Project successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addUserToProject -->
+        <test-method status="PASS" signature="deleteProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="deleteProject" duration-ms="3871" started-at="2016-10-13T16:37:28Z" finished-at="2016-10-13T16:37:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deleted Project successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:28Z" finished-at="2016-10-13T16:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUserToProject status=SUCCESS method=D_ProjectsTest.addUserToProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output=Added User to Project successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="afterClass" is-config="true" duration-ms="556" started-at="2016-10-13T16:37:32Z" finished-at="2016-10-13T16:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:32Z" finished-at="2016-10-13T16:37:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteProject status=SUCCESS method=D_ProjectsTest.deleteProject()[pri:0, instance:com.test.skytap.D_ProjectsTest@93dd95] output=Deleted Project successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- com.test.skytap.D_ProjectsTest -->
+      <class name="com.test.skytap.E_TemplatesConfigurationsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="beforeClass" is-config="true" duration-ms="5747" started-at="2016-10-13T16:37:32Z" finished-at="2016-10-13T16:37:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchTemplates()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="searchTemplates" duration-ms="6375" started-at="2016-10-13T16:37:38Z" finished-at="2016-10-13T16:37:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting Templates and Environment Test ***]]>
+            </line>
+            <line>
+              <![CDATA[Searched template successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTemplates -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:45Z" finished-at="2016-10-13T16:37:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTemplates status=SUCCESS method=E_TemplatesConfigurationsTest.searchTemplates()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output= *** Starting Templates and Environment Test ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createTemplate()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="createTemplate" duration-ms="5901" started-at="2016-10-13T16:37:45Z" finished-at="2016-10-13T16:37:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Creating Template ***]]>
+            </line>
+            <line>
+              <![CDATA[Created New Template with Name = QAIT Automation Template 1476356866660 and id = https://test.skytap.com/templates/334817]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTemplate -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:37:50Z" finished-at="2016-10-13T16:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTemplate status=SUCCESS method=E_TemplatesConfigurationsTest.createTemplate()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output= *** Starting with Creating Template ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createAndRunVmInEnvironment()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="createAndRunVmInEnvironment" duration-ms="38865" started-at="2016-10-13T16:37:50Z" finished-at="2016-10-13T16:38:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Creating an Environment ***]]>
+            </line>
+            <line>
+              <![CDATA[Created New Environment with Name = QAIT Automation Environment 1476356877707 and id = https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndRunVmInEnvironment -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:38:29Z" finished-at="2016-10-13T16:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAndRunVmInEnvironment status=SUCCESS method=E_TemplatesConfigurationsTest.createAndRunVmInEnvironment()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output= *** Starting with Creating an Environment ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="addTemplateToEnvironment()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="addTemplateToEnvironment" duration-ms="20998" started-at="2016-10-13T16:38:29Z" finished-at="2016-10-13T16:38:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added template to Environment Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addTemplateToEnvironment -->
+        <test-method status="PASS" signature="insertISO()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="insertISO" duration-ms="28447" started-at="2016-10-13T16:38:50Z" finished-at="2016-10-13T16:39:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ISO successfuly inserted to Environment https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insertISO -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:38:50Z" finished-at="2016-10-13T16:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTemplateToEnvironment status=SUCCESS method=E_TemplatesConfigurationsTest.addTemplateToEnvironment()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Added template to Environment Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:39:19Z" finished-at="2016-10-13T16:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=insertISO status=SUCCESS method=E_TemplatesConfigurationsTest.insertISO()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=ISO successfuly inserted to Environment https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="suspendVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="suspendVM" duration-ms="226306" started-at="2016-10-13T16:39:19Z" finished-at="2016-10-13T16:43:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VM Level Suspend]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suspendVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:43:05Z" finished-at="2016-10-13T16:43:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=suspendVM status=SUCCESS method=E_TemplatesConfigurationsTest.suspendVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=VM Level Suspend]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="FAIL" signature="shutDownVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="shutDownVM" duration-ms="307421" started-at="2016-10-13T16:43:05Z" finished-at="2016-10-13T16:48:12Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 300 seconds waiting for visibility of element located by By.xpath: //span[@title='Powered off']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 300 seconds waiting for visibility of element located by By.xpath: //span[@title='Powered off']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.test.skytap.E_TemplatesConfigurations.shutDownVM(E_TemplatesConfigurations.java:114)
+	at com.test.skytap.E_TemplatesConfigurationsTest.shutDownVM(E_TemplatesConfigurationsTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@title='Powered off']"}
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+*** Element info: {Using=xpath, value=//span[@title='Powered off']}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 22 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@title='Powered off']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'host-1', ip: '10.1.14.172', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="164" started-at="2016-10-13T16:48:13Z" finished-at="2016-10-13T16:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shutDownVM status=FAILURE method=E_TemplatesConfigurationsTest.shutDownVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="powerOffVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="powerOffVM" duration-ms="34664" started-at="2016-10-13T16:48:13Z" finished-at="2016-10-13T16:48:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VM Level Power-Off Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- powerOffVM -->
+        <test-method status="PASS" signature="runEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="runEnv" duration-ms="180141" started-at="2016-10-13T16:48:47Z" finished-at="2016-10-13T16:51:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Environment Level VM Run Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runEnv -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:48:47Z" finished-at="2016-10-13T16:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerOffVM status=SUCCESS method=E_TemplatesConfigurationsTest.powerOffVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=VM Level Power-Off Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="suspendEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="suspendEnv" duration-ms="223610" started-at="2016-10-13T16:51:47Z" finished-at="2016-10-13T16:55:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Environment Level Suspend Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suspendEnv -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:51:47Z" finished-at="2016-10-13T16:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runEnv status=SUCCESS method=E_TemplatesConfigurationsTest.runEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Environment Level VM Run Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T16:55:31Z" finished-at="2016-10-13T16:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=suspendEnv status=SUCCESS method=E_TemplatesConfigurationsTest.suspendEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Environment Level Suspend Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="shutDownEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="shutDownEnv" duration-ms="44833" started-at="2016-10-13T16:55:31Z" finished-at="2016-10-13T16:56:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Environment Level Shut-Down Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shutDownEnv -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:56:16Z" finished-at="2016-10-13T16:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shutDownEnv status=SUCCESS method=E_TemplatesConfigurationsTest.shutDownEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Environment Level Shut-Down Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="powerOffEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="powerOffEnv" duration-ms="54705" started-at="2016-10-13T16:56:16Z" finished-at="2016-10-13T16:57:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Environment Level Power-Off Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- powerOffEnv -->
+        <test-method status="PASS" signature="publishVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="publishVM" duration-ms="6544" started-at="2016-10-13T16:57:11Z" finished-at="2016-10-13T16:57:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Creating a new sharing portal ***]]>
+            </line>
+            <line>
+              <![CDATA[Created Sharing Portal with URL = https://test.skytap.com/configurations/17527688/publish_sets/84480?created=success]]>
+            </line>
+            <line>
+              <![CDATA[Portal URL = https://test.skytap.com/vms/06c401dc92387760967ddd3e6cb1b298/desktops]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- publishVM -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:57:11Z" finished-at="2016-10-13T16:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=powerOffEnv status=SUCCESS method=E_TemplatesConfigurationsTest.powerOffEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Environment Level Power-Off Success]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="saveEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="saveEnv" duration-ms="20004" started-at="2016-10-13T16:57:17Z" finished-at="2016-10-13T16:57:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Save Environment to template success with id = https://test.skytap.com/templates/334821]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- saveEnv -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:57:17Z" finished-at="2016-10-13T16:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=publishVM status=SUCCESS method=E_TemplatesConfigurationsTest.publishVM()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output= *** Starting with Creating a new sharing portal ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteVmAndEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="deleteVmAndEnv" duration-ms="36513" started-at="2016-10-13T16:57:37Z" finished-at="2016-10-13T16:58:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete VM Success, VM id = 7997126]]>
+            </line>
+            <line>
+              <![CDATA[Delete Environment Success https://test.skytap.com/configurations/17527816?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteVmAndEnv -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:57:37Z" finished-at="2016-10-13T16:57:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveEnv status=SUCCESS method=E_TemplatesConfigurationsTest.saveEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Save Environment to template success with id = https://test.skytap.com/templates/334821]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:58:14Z" finished-at="2016-10-13T16:58:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteVmAndEnv status=SUCCESS method=E_TemplatesConfigurationsTest.deleteVmAndEnv()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf] output=Delete VM Success, VM id = 7997126]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.E_TemplatesConfigurationsTest@1622fdf]" name="afterClass" is-config="true" duration-ms="620" started-at="2016-10-13T16:58:14Z" finished-at="2016-10-13T16:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.E_TemplatesConfigurationsTest -->
+      <class name="com.test.skytap.J_HelpPagesTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="beforeClass" is-config="true" duration-ms="6968" started-at="2016-10-13T17:01:35Z" finished-at="2016-10-13T17:01:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Super User - qait_super]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="superTab()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="superTab" duration-ms="837" started-at="2016-10-13T17:01:42Z" finished-at="2016-10-13T17:01:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Help Page Accessible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- superTab -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:43Z" finished-at="2016-10-13T17:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=superTab status=SUCCESS method=J_HelpPagesTest.superTab()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a] output=Help Page Accessible]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="adminTab()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="adminTab" duration-ms="3360" started-at="2016-10-13T17:01:43Z" finished-at="2016-10-13T17:01:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+            <line>
+              <![CDATA[Help Page Accessible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- adminTab -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="afterClass" is-config="true" duration-ms="538" started-at="2016-10-13T17:01:47Z" finished-at="2016-10-13T17:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:01:47Z" finished-at="2016-10-13T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adminTab status=SUCCESS method=J_HelpPagesTest.adminTab()[pri:0, instance:com.test.skytap.J_HelpPagesTest@19c0f4a] output=Successfully logged in with Admin User - Automation_qait]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- com.test.skytap.J_HelpPagesTest -->
+      <class name="com.test.skytap.C_AssetsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="beforeClass" is-config="true" duration-ms="5795" started-at="2016-10-13T16:35:57Z" finished-at="2016-10-13T16:36:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="uploadAsset()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="uploadAsset" duration-ms="19459" started-at="2016-10-13T16:36:02Z" finished-at="2016-10-13T16:36:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Asset Upload ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully uploaded asset with id = https://test.skytap.com/assets/42210]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uploadAsset -->
+        <test-method status="PASS" signature="deleteAsset()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="deleteAsset" duration-ms="4503" started-at="2016-10-13T16:36:22Z" finished-at="2016-10-13T16:36:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Deleted asset with id = https://test.skytap.com/assets/42210]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAsset -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:36:22Z" finished-at="2016-10-13T16:36:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadAsset status=SUCCESS method=C_AssetsTest.uploadAsset()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02] output= *** Starting with Asset Upload ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="afterClass" is-config="true" duration-ms="486" started-at="2016-10-13T16:36:26Z" finished-at="2016-10-13T16:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:36:26Z" finished-at="2016-10-13T16:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAsset status=SUCCESS method=C_AssetsTest.deleteAsset()[pri:0, instance:com.test.skytap.C_AssetsTest@14b1c02] output=Successfully Deleted asset with id = https://test.skytap.com/assets/42210]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- com.test.skytap.C_AssetsTest -->
+      <class name="com.test.skytap.B_AdminUserTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="beforeClass" is-config="true" duration-ms="6714" started-at="2016-10-13T16:32:51Z" finished-at="2016-10-13T16:32:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="createAdminUser" duration-ms="118945" started-at="2016-10-13T16:32:57Z" finished-at="2016-10-13T16:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with user - Automation_qait]]>
+            </line>
+            <line>
+              <![CDATA[URL of Admin User is - https://test.skytap.com/users/274754]]>
+            </line>
+            <line>
+              <![CDATA[ *** Creating Admin User ***]]>
+            </line>
+            <line>
+              <![CDATA[Created New Admin User with Name = Admin1476356664072 and id = https://test.skytap.com/users/305548]]>
+            </line>
+            <line>
+              <![CDATA[ *** Activating User ***]]>
+            </line>
+            <line>
+              <![CDATA[ Successfully activated Admin User (Created Via Admin) with id = https://test.skytap.com/users/305548]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdminUser -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:34:56Z" finished-at="2016-10-13T16:34:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAdminUser status=SUCCESS method=B_AdminUserTest.createAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43] output=Successfully logged in with user - Automation_qait]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createNonAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="createNonAdminUser" duration-ms="34201" started-at="2016-10-13T16:34:56Z" finished-at="2016-10-13T16:35:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Creating Non-Admin User ***]]>
+            </line>
+            <line>
+              <![CDATA[Created Non-Admin User with Name = NonAdmin1476356697543 and id = https://test.skytap.com/users/305550]]>
+            </line>
+            <line>
+              <![CDATA[ *** Activating User with short Password ***]]>
+            </line>
+            <line>
+              <![CDATA[ *** Activating User ***]]>
+            </line>
+            <line>
+              <![CDATA[ Successfully activated Non - Admin User (Created Via Admin) with id = https://test.skytap.com/users/305550]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNonAdminUser -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:35:31Z" finished-at="2016-10-13T16:35:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNonAdminUser status=SUCCESS method=B_AdminUserTest.createNonAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43] output= *** Creating Non-Admin User ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteNonAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="deleteNonAdminUser" duration-ms="3913" started-at="2016-10-13T16:35:31Z" finished-at="2016-10-13T16:35:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Deleting Non-Admin User ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully deleted Non admin user with id = https://test.skytap.com/users/305550]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteNonAdminUser -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:35:35Z" finished-at="2016-10-13T16:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteNonAdminUser status=SUCCESS method=B_AdminUserTest.deleteNonAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43] output= *** Deleting Non-Admin User ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="deleteAdminUser" duration-ms="3673" started-at="2016-10-13T16:35:35Z" finished-at="2016-10-13T16:35:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Deleting Admin User ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully deleted admin user with id = https://test.skytap.com/users/305548]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAdminUser -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="deleteCustomer" duration-ms="17764" started-at="2016-10-13T16:35:38Z" finished-at="2016-10-13T16:35:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Super User - qait_super]]>
+            </line>
+            <line>
+              <![CDATA[Successfully deleted customer with name = QAIT Customer 1476356519794   and id = https://test.skytap.com/customers/12980]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:35:38Z" finished-at="2016-10-13T16:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAdminUser status=SUCCESS method=B_AdminUserTest.deleteAdminUser()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43] output= *** Deleting Admin User ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T16:35:56Z" finished-at="2016-10-13T16:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomer status=SUCCESS method=B_AdminUserTest.deleteCustomer()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43] output=Successfully logged in with Super User - qait_super]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.B_AdminUserTest@d62f43]" name="afterClass" is-config="true" duration-ms="605" started-at="2016-10-13T16:35:56Z" finished-at="2016-10-13T16:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.B_AdminUserTest -->
+      <class name="com.test.skytap.S_VPNTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="beforeClass" is-config="true" duration-ms="6035" started-at="2016-10-13T17:06:41Z" finished-at="2016-10-13T17:06:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fetchPIP()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fetchPIP" duration-ms="88614" started-at="2016-10-13T17:06:47Z" finished-at="2016-10-13T17:08:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Fetching Public IPs for VPN TEST ***]]>
+            </line>
+            <line>
+              <![CDATA[IP Address successfully fetched for SoftLayer (London)]]>
+            </line>
+            <line>
+              <![CDATA[185.64.244.154]]>
+            </line>
+            <line>
+              <![CDATA[IP Address successfully fetched for US-West]]>
+            </line>
+            <line>
+              <![CDATA[199.204.217.187]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fetchPIP -->
+        <test-method status="PASS" signature="createRunEnviornments()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="createRunEnviornments" duration-ms="34838" started-at="2016-10-13T17:08:15Z" finished-at="2016-10-13T17:08:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with Creating Environments for VPN TEST ***]]>
+            </line>
+            <line>
+              <![CDATA[IP of - SoftLayer (London) Environment 871- is 10.0.0.1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly created environment for Region SoftLayer (London)with id https://test.skytap.com/configurations/17527880?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+            <line>
+              <![CDATA[IP of - US-West Environment 871 - is 20.0.0.1]]>
+            </line>
+            <line>
+              <![CDATA[Successfuly created environment for Region US-West with id https://test.skytap.com/configurations/17527884?sort=name&thumbnails=shown&env_details_meta_info=1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createRunEnviornments -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:08:15Z" finished-at="2016-10-13T17:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fetchPIP status=SUCCESS method=S_VPNTest.fetchPIP()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Starting with Fetching Public IPs for VPN TEST ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:08:50Z" finished-at="2016-10-13T17:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createRunEnviornments status=SUCCESS method=S_VPNTest.createRunEnviornments()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Starting with Creating Environments for VPN TEST ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createVPN1()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="createVPN1" duration-ms="14132" started-at="2016-10-13T17:08:50Z" finished-at="2016-10-13T17:09:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with creation of VPN for SoftLayer (London) ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created VPN with name = SoftLayer (London) VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237105]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createVPN1 -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:09:04Z" finished-at="2016-10-13T17:09:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createVPN1 status=SUCCESS method=S_VPNTest.createVPN1()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Starting with creation of VPN for SoftLayer (London) ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="createVPN2()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="createVPN2" duration-ms="19672" started-at="2016-10-13T17:09:04Z" finished-at="2016-10-13T17:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with creation of VPN for US-West ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created VPN with name = US-West VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237107]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createVPN2 -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:09:24Z" finished-at="2016-10-13T17:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createVPN2 status=SUCCESS method=S_VPNTest.createVPN2()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Starting with creation of VPN for US-West ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="connectVPNs()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="connectVPNs" duration-ms="18123" started-at="2016-10-13T17:09:24Z" finished-at="2016-10-13T17:09:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Starting with connecting VPNs to Environment ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully connected VPN - SoftLayer (London) VPN 871 - to environment - SoftLayer (London) Environment 871]]>
+            </line>
+            <line>
+              <![CDATA[Successfully connected VPN- US-West VPN 871 - to environment - US-West Environment 871]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectVPNs -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:09:42Z" finished-at="2016-10-13T17:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=connectVPNs status=SUCCESS method=S_VPNTest.connectVPNs()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Starting with connecting VPNs to Environment ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="testVPN1()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="testVPN1" duration-ms="22993" started-at="2016-10-13T17:09:42Z" finished-at="2016-10-13T17:10:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Testing VPN - SoftLayer (London) VPN 871 ***]]>
+            </line>
+            <line>
+              <![CDATA[SoftLayer (London) VPN Results:]]>
+            </line>
+            <line>
+              <![CDATA[Phase 1 result Pass]]>
+            </line>
+            <line>
+              <![CDATA[Phase 2 result Pass]]>
+            </line>
+            <line>
+              <![CDATA[Remote Ping Address Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVPN1 -->
+        <test-method status="PASS" signature="testVPN2()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="testVPN2" duration-ms="23414" started-at="2016-10-13T17:10:05Z" finished-at="2016-10-13T17:10:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Testing VPN - US-West VPN 871 ***]]>
+            </line>
+            <line>
+              <![CDATA[US-West VPN Results:]]>
+            </line>
+            <line>
+              <![CDATA[Phase 1 result Pass]]>
+            </line>
+            <line>
+              <![CDATA[Phase 2 result Pass]]>
+            </line>
+            <line>
+              <![CDATA[Remote Ping Address Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVPN2 -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:10:05Z" finished-at="2016-10-13T17:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVPN1 status=SUCCESS method=S_VPNTest.testVPN1()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Testing VPN - SoftLayer (London) VPN 871 ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:10:28Z" finished-at="2016-10-13T17:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVPN2 status=SUCCESS method=S_VPNTest.testVPN2()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Testing VPN - US-West VPN 871 ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteVPN()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="deleteVPN" duration-ms="28698" started-at="2016-10-13T17:10:28Z" finished-at="2016-10-13T17:10:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Deleting VPNs ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Deleted VPN - SoftLayer (London) VPN 871]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Deleted VPN - US-West VPN 871]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteVPN -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:10:57Z" finished-at="2016-10-13T17:10:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteVPN status=SUCCESS method=S_VPNTest.deleteVPN()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Deleting VPNs ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteEnvironment()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="deleteEnvironment" duration-ms="53620" started-at="2016-10-13T17:10:57Z" finished-at="2016-10-13T17:11:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Deleting Environments Linked to VPNs ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully deleted environment - SoftLayer (London) Environment 871]]>
+            </line>
+            <line>
+              <![CDATA[Successfully deleted environment - US-West Environment 871]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteEnvironment -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:11:51Z" finished-at="2016-10-13T17:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteEnvironment status=SUCCESS method=S_VPNTest.deleteEnvironment()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Deleting Environments Linked to VPNs ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="releasePIP()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="releasePIP" duration-ms="10704" started-at="2016-10-13T17:11:51Z" finished-at="2016-10-13T17:12:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Releasing PIPs ***]]>
+            </line>
+            <line>
+              <![CDATA[Successfully released PIP 185.64.244.154 for SoftLayer (London) Region]]>
+            </line>
+            <line>
+              <![CDATA[Successfully released PIP 199.204.217.187 for US-West Region]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- releasePIP -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:12:01Z" finished-at="2016-10-13T17:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=releasePIP status=SUCCESS method=S_VPNTest.releasePIP()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7] output= *** Releasing PIPs ***]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.S_VPNTest@13b32d7]" name="afterClass" is-config="true" duration-ms="590" started-at="2016-10-13T17:12:01Z" finished-at="2016-10-13T17:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.S_VPNTest -->
+      <class name="com.test.skytap.Y_DeleteResourcesTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="beforeClass" is-config="true" duration-ms="6584" started-at="2016-10-13T17:12:36Z" finished-at="2016-10-13T17:12:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully logged in with Admin User - Automation_qait]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="deleteAllEnvironments()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="deleteAllEnvironments" duration-ms="10483" started-at="2016-10-13T17:12:43Z" finished-at="2016-10-13T17:12:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deleting All Environments]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Deleted All Environments in Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllEnvironments -->
+        <test-method status="PASS" signature="deleteAllTemplates()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="deleteAllTemplates" duration-ms="11476" started-at="2016-10-13T17:12:53Z" finished-at="2016-10-13T17:13:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Deleted All Templates in Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllTemplates -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:12:53Z" finished-at="2016-10-13T17:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAllEnvironments status=SUCCESS method=Y_DeleteResourcesTest.deleteAllEnvironments()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350] output=Deleting All Environments]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteAllExports()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="deleteAllExports" duration-ms="13373" started-at="2016-10-13T17:13:05Z" finished-at="2016-10-13T17:13:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Export template URL = ftp://6s5uyu99D:8NETu9YPlX@ftp-uswest.test.skytap.com/upload/vm.7z]]>
+            </line>
+            <line>
+              <![CDATA[Export Job Successfully deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllExports -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:13:05Z" finished-at="2016-10-13T17:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAllTemplates status=SUCCESS method=Y_DeleteResourcesTest.deleteAllTemplates()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350] output=Successfully Deleted All Templates in Account]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="fail" is-config="true" duration-ms="1" started-at="2016-10-13T17:13:18Z" finished-at="2016-10-13T17:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAllExports status=SUCCESS method=Y_DeleteResourcesTest.deleteAllExports()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350] output=Export template URL = ftp://6s5uyu99D:8NETu9YPlX@ftp-uswest.test.skytap.com/upload/vm.7z]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="deleteAllImports()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="deleteAllImports" duration-ms="20009" started-at="2016-10-13T17:13:18Z" finished-at="2016-10-13T17:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllImports -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="fail" is-config="true" duration-ms="0" started-at="2016-10-13T17:13:38Z" finished-at="2016-10-13T17:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAllImports status=SUCCESS method=Y_DeleteResourcesTest.deleteAllImports()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.skytap.Y_DeleteResourcesTest@8e7350]" name="afterClass" is-config="true" duration-ms="429" started-at="2016-10-13T17:13:38Z" finished-at="2016-10-13T17:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.skytap.Y_DeleteResourcesTest -->
+    </test> <!-- Skytap Test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
