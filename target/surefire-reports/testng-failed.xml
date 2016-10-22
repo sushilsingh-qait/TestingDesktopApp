@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.test.skytap.A_SuperUserTest"/>
+      <class name="com.test.skytap.B_AdminUserTest"/>
+      <class name="com.test.skytap.C_AssetsTest"/>
+      <class name="com.test.skytap.D_ProjectsTest"/>
+      <class name="com.test.skytap.E_TemplatesConfigurationsTest"/>
+      <class name="com.test.skytap.G_PIPTest"/>
+      <class name="com.test.skytap.H_QuotaTest"/>
+      <class name="com.test.skytap.I_UsageTest"/>
+      <class name="com.test.skytap.J_HelpPagesTest"/>
+      <class name="com.test.skytap.K_SharingPortalTest"/>
+      <class name="com.test.skytap.L_PublishedServicesTest"/>
+      <class name="com.test.skytap.Q_ImportExportTest"/>
+      <class name="com.test.skytap.R_ConnectivityTest"/>
+      <class name="com.test.skytap.S_VPNTest"/>
+      <class name="com.test.skytap.V_ScheduleTest"/>
+      <class name="com.test.skytap.X_SupportRequestTest"/>
+      <class name="com.test.skytap.Y_DeleteResourcesTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.test.skytap.L_PublishedServicesTest">
+        <methods>
+          <include name="addByName"/>
+          <include name="fail"/>
+          <include name="addByPort"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.L_PublishedServicesTest -->
+      <class name="com.test.skytap.C_AssetsTest">
+        <methods>
+          <include name="deleteAsset"/>
+          <include name="beforeClass"/>
+          <include name="uploadAsset"/>
+          <include name="navigatehome"/>
+        </methods>
+      </class> <!-- com.test.skytap.C_AssetsTest -->
+      <class name="com.test.skytap.E_TemplatesConfigurationsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="saveEnv"/>
+          <include name="createAndRunVmInEnvironment"/>
+          <include name="insertISO"/>
+          <include name="searchTemplates"/>
+          <include name="addTemplateToEnvironment"/>
+          <include name="shutDownEnv"/>
+          <include name="suspendVM"/>
+          <include name="powerOffVM"/>
+          <include name="createTemplate"/>
+          <include name="deleteVmAndEnv"/>
+          <include name="publishVM"/>
+          <include name="shutDownVM"/>
+          <include name="runEnv"/>
+          <include name="powerOffEnv"/>
+          <include name="suspendEnv"/>
+        </methods>
+      </class> <!-- com.test.skytap.E_TemplatesConfigurationsTest -->
+      <class name="com.test.skytap.Q_ImportExportTest">
+        <methods>
+          <include name="exportVM"/>
+          <include name="beforeClass"/>
+          <include name="importVM"/>
+          <include name="afterClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.Q_ImportExportTest -->
+      <class name="com.test.skytap.A_SuperUserTest">
+        <methods>
+          <include name="createAdminUser"/>
+          <include name="beforeClass"/>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- com.test.skytap.A_SuperUserTest -->
+      <class name="com.test.skytap.H_QuotaTest">
+        <methods>
+          <include name="customerSvmHourQuotaOnVmRun"/>
+          <include name="userStorageQuotaAssetUpload"/>
+          <include name="userSvmQuotaOnVmRun"/>
+          <include name="createQuotaEnvironment"/>
+          <include name="customerSvmQuotaOnVmRun"/>
+          <include name="customerStorageQuotaAddTempToEnv"/>
+          <include name="userSvmHourQuotaOnVmRun"/>
+          <include name="userStorageQuotaAddTempToEnv"/>
+          <include name="userStorageQuotaAddVM"/>
+          <include name="beforeClass"/>
+          <include name="customerStorageQuotaAddVM"/>
+          <include name="customerSvmHourVmAutoSuspend"/>
+          <include name="customerStorageQuotaAssetUpload"/>
+          <include name="customerStorageQuotaCreateTempFromEnv"/>
+          <include name="userSvmHourVmAutoSuspend"/>
+        </methods>
+      </class> <!-- com.test.skytap.H_QuotaTest -->
+      <class name="com.test.skytap.D_ProjectsTest">
+        <methods>
+          <include name="deleteProject"/>
+          <include name="beforeClass"/>
+          <include name="addTemplateToProject"/>
+          <include name="addAssetToProject"/>
+          <include name="addUserToProject"/>
+          <include name="createProject"/>
+          <include name="addEnvironmentToProject"/>
+        </methods>
+      </class> <!-- com.test.skytap.D_ProjectsTest -->
+      <class name="com.test.skytap.B_AdminUserTest">
+        <methods>
+          <include name="deleteCustomer"/>
+          <include name="afterClass"/>
+          <include name="deleteNonAdminUser"/>
+          <include name="deleteAdminUser"/>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.B_AdminUserTest -->
+      <class name="com.test.skytap.G_PIPTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="releasePIP"/>
+          <include name="fetchPIP"/>
+        </methods>
+      </class> <!-- com.test.skytap.G_PIPTest -->
+      <class name="com.test.skytap.S_VPNTest">
+        <methods>
+          <include name="fetchPIP"/>
+          <include name="createVPN2"/>
+          <include name="connectVPNs"/>
+          <include name="createRunEnviornments"/>
+          <include name="testVPN1"/>
+          <include name="createVPN1"/>
+          <include name="deleteVPN"/>
+          <include name="testVPN2"/>
+          <include name="beforeClass"/>
+          <include name="releasePIP"/>
+          <include name="deleteEnvironment"/>
+        </methods>
+      </class> <!-- com.test.skytap.S_VPNTest -->
+      <class name="com.test.skytap.J_HelpPagesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="adminTab"/>
+          <include name="superTab"/>
+        </methods>
+      </class> <!-- com.test.skytap.J_HelpPagesTest -->
+      <class name="com.test.skytap.Y_DeleteResourcesTest">
+        <methods>
+          <include name="deleteAllTemplates"/>
+          <include name="deleteAllImports"/>
+          <include name="beforeClass"/>
+          <include name="deleteAllEnvironments"/>
+          <include name="deleteAllExports"/>
+        </methods>
+      </class> <!-- com.test.skytap.Y_DeleteResourcesTest -->
+      <class name="com.test.skytap.I_UsageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="storageNoGroupingLastMonth"/>
+          <include name="svmNoGroupingCurrentMonth"/>
+          <include name="storageUsageSuper"/>
+          <include name="storageUsage"/>
+          <include name="beforeClass"/>
+          <include name="svmUsage"/>
+          <include name="fail"/>
+          <include name="svmNoGroupingLastMonth"/>
+          <include name="svmUsageSuper"/>
+        </methods>
+      </class> <!-- com.test.skytap.I_UsageTest -->
+      <class name="com.test.skytap.X_SupportRequestTest">
+        <methods>
+          <include name="submitForm"/>
+          <include name="caseGenerateVerify"/>
+          <include name="clickSupportLink"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.X_SupportRequestTest -->
+      <class name="com.test.skytap.K_SharingPortalTest">
+        <methods>
+          <include name="AccessGMTMultipleVM"/>
+          <include name="beforeClass"/>
+          <include name="AccessGMTSingleVM"/>
+          <include name="createSharingPortal"/>
+          <include name="noPasswordPortalMultipleVM"/>
+          <include name="powerActionsSingleVM"/>
+          <include name="passwordPortalMultipleVM"/>
+          <include name="passwordPortalSingleVM"/>
+          <include name="AccessISTMultipleVM"/>
+          <include name="noPasswordPortalSingleVM"/>
+          <include name="AccessISTSingleVM"/>
+          <include name="powerActionsMultipleVM"/>
+        </methods>
+      </class> <!-- com.test.skytap.K_SharingPortalTest -->
+      <class name="com.test.skytap.V_ScheduleTest">
+        <methods>
+          <include name="createScheduleNonAdmin"/>
+          <include name="createScheduleAdmin"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="schedulesList"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.V_ScheduleTest -->
+      <class name="com.test.skytap.R_ConnectivityTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="connectivity"/>
+        </methods>
+      </class> <!-- com.test.skytap.R_ConnectivityTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

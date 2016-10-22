@@ -1,0 +1,1194 @@
+<html>
+<head>
+<title>TestNG:  Skytap Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Skytap Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 13 16:31:24 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>2534 seconds (2534304 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.skytap.Q_ImportExportTest.importVM()'><b>importVM</b><br>Test class: com.test.skytap.Q_ImportExportTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Command duration or timeout: 20.34 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e31302-cd74-4c04-b877-101305bb45e1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.test.skytap.BaseFixture.uploadVM(BaseFixture.java:317)
+	at com.test.skytap.Q_Import_Export.importVM(Q_Import_Export.java:45)
+	at com.test.skytap.Q_ImportExportTest.importVM(Q_ImportExportTest.java:25)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;._loadURIWithFlags(chrome://browser/content/browser.js:862)
+	at &lt;anonymous class&gt;.loadURIWithFlags(chrome://browser/content/tabbrowser.xml:6619)
+	at &lt;anonymous class&gt;.loadURI(chrome://global/content/bindings/browser.xml:114)
+	at &lt;anonymous class&gt;.loadURI(chrome://browser/content/tabbrowser.xml:3746)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.get(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10641)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17149981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17149981'><pre>org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Command duration or timeout: 20.34 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e31302-cd74-4c04-b877-101305bb45e1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.test.skytap.BaseFixture.uploadVM(BaseFixture.java:317)
+	at com.test.skytap.Q_Import_Export.importVM(Q_Import_Export.java:45)
+	at com.test.skytap.Q_ImportExportTest.importVM(Q_ImportExportTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIWebNavigation.loadURIWithOptions]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;._loadURIWithFlags(chrome://browser/content/browser.js:862)
+	at &lt;anonymous class&gt;.loadURIWithFlags(chrome://browser/content/tabbrowser.xml:6619)
+	at &lt;anonymous class&gt;.loadURI(chrome://global/content/bindings/browser.xml:114)
+	at &lt;anonymous class&gt;.loadURI(chrome://browser/content/tabbrowser.xml:3746)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.get(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10641)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous1778203213011991368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+</pre></div></td>
+<td>25</td>
+<td>com.test.skytap.Q_ImportExportTest@1baeedf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.shutDownVM()'><b>shutDownVM</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 300 seconds waiting for visibility of element located by By.xpath: //span[@title=&apos;Powered off&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.test.skytap.E_TemplatesConfigurations.shutDownVM(E_TemplatesConfigurations.java:114)
+	at com.test.skytap.E_TemplatesConfigurationsTest.shutDownVM(E_TemplatesConfigurationsTest.java:53)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@title=&apos;Powered off&apos;]&quot;}
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+*** Element info: {Using=xpath, value=//span[@title=&apos;Powered off&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 22 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@title=&apos;Powered off&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace23522074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace23522074'><pre>org.openqa.selenium.TimeoutException: Timed out after 300 seconds waiting for visibility of element located by By.xpath: //span[@title=&apos;Powered off&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.test.skytap.E_TemplatesConfigurations.shutDownVM(E_TemplatesConfigurations.java:114)
+	at com.test.skytap.E_TemplatesConfigurationsTest.shutDownVM(E_TemplatesConfigurationsTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@title=&apos;Powered off&apos;]&quot;}
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ecb7fe72-c1e9-4c35-a49f-6751991f2b40
+*** Element info: {Using=xpath, value=//span[@title=&apos;Powered off&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 22 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@title=&apos;Powered off&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous3313986832573192344webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div></td>
+<td>307</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.svmUsage()'><b>svmUsage</b><br>Test class: com.test.skytap.I_UsageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.run-vm&quot;}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c1f3b83-2fa9-4700-a5a0-76203e2d52e9
+*** Element info: {Using=css selector, value=.run-vm}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.test.skytap.I_Usage.svmUsage(I_Usage.java:17)
+	at com.test.skytap.I_UsageTest.svmUsage(I_UsageTest.java:24)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.run-vm&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33081256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33081256'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.run-vm&quot;}
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8c1f3b83-2fa9-4700-a5a0-76203e2d52e9
+*** Element info: {Using=css selector, value=.run-vm}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.test.skytap.I_Usage.svmUsage(I_Usage.java:17)
+	at com.test.skytap.I_UsageTest.svmUsage(I_UsageTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.run-vm&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;host-1&apos;, ip: &apos;10.1.14.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Skytap/AppData/Local/Temp/anonymous430111743752562097webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div></td>
+<td>52</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.AccessISTMultipleVM()'><b>AccessISTMultipleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>5</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.AccessISTSingleVM()'><b>AccessISTSingleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>5</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.addAssetToProject()'><b>addAssetToProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-4728610" onClick='toggleBox("Output-4728610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4728610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4728610">
+Added Asset to Project successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.L_PublishedServicesTest.addByName()'><b>addByName</b><br>Test class: com.test.skytap.L_PublishedServicesTest<br/>
+<a href="#Output-2944254" onClick='toggleBox("Output-2944254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2944254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2944254">
+ *** Starting Published Services Test *** <br/>
+Environment Used for PS Testing https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+Publiched Service address = services-uswest.test.skytap.com:24847<br/>
+ Attached Port No. 3389<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.skytap.L_PublishedServicesTest@e26948</td></tr>
+<tr>
+<td title='com.test.skytap.L_PublishedServicesTest.addByPort()'><b>addByPort</b><br>Test class: com.test.skytap.L_PublishedServicesTest<br/>
+<a href="#Output-33550935" onClick='toggleBox("Output-33550935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33550935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33550935">
+Publiched Service address services-uswest.test.skytap.com:24847<br/>
+ Attached Port No. 8080<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.skytap.L_PublishedServicesTest@e26948</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.addEnvironmentToProject()'><b>addEnvironmentToProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-31927779" onClick='toggleBox("Output-31927779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31927779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31927779">
+Added Environment to Project successfully<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.addTemplateToEnvironment()'><b>addTemplateToEnvironment</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-3597968" onClick='toggleBox("Output-3597968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3597968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3597968">
+Added template to Environment Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.addTemplateToProject()'><b>addTemplateToProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-2818201" onClick='toggleBox("Output-2818201", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2818201" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2818201">
+Added Template to Project successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.addUserToProject()'><b>addUserToProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-7447164" onClick='toggleBox("Output-7447164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7447164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7447164">
+Added User to Project successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.J_HelpPagesTest.adminTab()'><b>adminTab</b><br>Test class: com.test.skytap.J_HelpPagesTest<br/>
+<a href="#Output-11388214" onClick='toggleBox("Output-11388214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11388214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11388214">
+Successfully logged in with Admin User - Automation_qait<br/>
+Help Page Accessible<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.J_HelpPagesTest@19c0f4a</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.connectVPNs()'><b>connectVPNs</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-19762606" onClick='toggleBox("Output-19762606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19762606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19762606">
+ *** Starting with connecting VPNs to Environment ***<br/>
+Successfully connected VPN - SoftLayer (London) VPN 871 - to environment - SoftLayer (London) Environment 871<br/>
+Successfully connected VPN- US-West VPN 871 - to environment - US-West Environment 871<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.R_ConnectivityTest.connectivity()'><b>connectivity</b><br>Test class: com.test.skytap.R_ConnectivityTest<br/>
+<a href="#Output-23344426" onClick='toggleBox("Output-23344426", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23344426" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23344426">
+Successfully logged in with Admin User - Automation_qait<br/>
+ *** Connectivity Test Results ***<br/>
+Supported browser = Passed<br/>
+Client connection = Passed<br/>
+Latency = 9ms<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.skytap.R_ConnectivityTest@3f4d3d</td></tr>
+<tr>
+<td title='com.test.skytap.A_SuperUserTest.createAdminUser()'><b>createAdminUser</b><br>Test class: com.test.skytap.A_SuperUserTest<br/>
+<a href="#Output-9199219" onClick='toggleBox("Output-9199219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9199219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9199219">
+Created New Admin User via Super with Name = Admin1476356558900 and id = https://test.skytap.com/customers/12980/users/305546<br/>
+ *** Activating User ***<br/>
+Successfully activated Admin User (Created Via Super) with id = https://test.skytap.com/customers/12980/users/305546<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.test.skytap.A_SuperUserTest@41eaa2</td></tr>
+<tr>
+<td title='com.test.skytap.B_AdminUserTest.createAdminUser()'><b>createAdminUser</b><br>Test class: com.test.skytap.B_AdminUserTest<br/>
+<a href="#Output-14661715" onClick='toggleBox("Output-14661715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14661715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14661715">
+Successfully logged in with user - Automation_qait<br/>
+URL of Admin User is - https://test.skytap.com/users/274754<br/>
+ *** Creating Admin User ***<br/>
+Created New Admin User with Name = Admin1476356664072 and id = https://test.skytap.com/users/305548<br/>
+ *** Activating User ***<br/>
+ Successfully activated Admin User (Created Via Admin) with id = https://test.skytap.com/users/305548<br/>
+Successfully logged in with Admin User - Automation_qait<br/>
+</div>
+</td>
+<td></td>
+<td>118</td>
+<td>com.test.skytap.B_AdminUserTest@d62f43</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.createAndRunVmInEnvironment()'><b>createAndRunVmInEnvironment</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-8145708" onClick='toggleBox("Output-8145708", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8145708" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8145708">
+ *** Starting with Creating an Environment ***<br/>
+Created New Environment with Name = QAIT Automation Environment 1476356877707 and id = https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.A_SuperUserTest.createCustomer()'><b>createCustomer</b><br>Test class: com.test.skytap.A_SuperUserTest<br/>
+<a href="#Output-28815247" onClick='toggleBox("Output-28815247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28815247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28815247">
+ *** Creating a new customer ***<br/>
+Successfully created a new customer with name = QAIT Customer 1476356519794  and id = https://test.skytap.com/customers/12980<br/>
+</div>
+</td>
+<td></td>
+<td>55</td>
+<td>com.test.skytap.A_SuperUserTest@41eaa2</td></tr>
+<tr>
+<td title='com.test.skytap.B_AdminUserTest.createNonAdminUser()'><b>createNonAdminUser</b><br>Test class: com.test.skytap.B_AdminUserTest<br/>
+<a href="#Output-6111504" onClick='toggleBox("Output-6111504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6111504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6111504">
+ *** Creating Non-Admin User ***<br/>
+Created Non-Admin User with Name = NonAdmin1476356697543 and id = https://test.skytap.com/users/305550<br/>
+ *** Activating User with short Password ***<br/>
+ *** Activating User ***<br/>
+ Successfully activated Non - Admin User (Created Via Admin) with id = https://test.skytap.com/users/305550<br/>
+Successfully logged in with Admin User - Automation_qait<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.test.skytap.B_AdminUserTest@d62f43</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.createProject()'><b>createProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-28651322" onClick='toggleBox("Output-28651322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28651322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28651322">
+ *** Starting Projects Test ***<br/>
+Created Project with Name = QAIT Automation Project 1476356794650 and ID =https://test.skytap.com/projects/531558<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.createRunEnviornments()'><b>createRunEnviornments</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-16212722" onClick='toggleBox("Output-16212722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16212722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16212722">
+ *** Starting with Creating Environments for VPN TEST ***<br/>
+IP of - SoftLayer (London) Environment 871- is 10.0.0.1<br/>
+Successfuly created environment for Region SoftLayer (London)with id https://test.skytap.com/configurations/17527880?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+IP of - US-West Environment 871 - is 20.0.0.1<br/>
+Successfuly created environment for Region US-West with id https://test.skytap.com/configurations/17527884?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.V_ScheduleTest.createScheduleAdmin()'><b>createScheduleAdmin</b><br>Test class: com.test.skytap.V_ScheduleTest<br/>
+<a href="#Output-19168731" onClick='toggleBox("Output-19168731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19168731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19168731">
+ *** Starting with creating a new Schedule *** <br/>
+Successfully created schedule with Admin with id = https://test.skytap.com/schedules/1991920/edit Scheduled at 10/13/2016 7:00 PM New Delhi<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.V_ScheduleTest@42a311</td></tr>
+<tr>
+<td title='com.test.skytap.V_ScheduleTest.createScheduleNonAdmin()'><b>createScheduleNonAdmin</b><br>Test class: com.test.skytap.V_ScheduleTest<br/>
+<a href="#Output-25170265" onClick='toggleBox("Output-25170265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25170265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25170265">
+Successfully created schedule by Non-Admin with id = https://test.skytap.com/schedules/1991922/edit Scheduled at 10/13/2016 7:00 PM New Delhi<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.skytap.V_ScheduleTest@42a311</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.createSharingPortal()'><b>createSharingPortal</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.createTemplate()'><b>createTemplate</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-18571177" onClick='toggleBox("Output-18571177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18571177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18571177">
+ *** Starting with Creating Template ***<br/>
+Created New Template with Name = QAIT Automation Template 1476356866660 and id = https://test.skytap.com/templates/334817<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.createVPN1()'><b>createVPN1</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-23000748" onClick='toggleBox("Output-23000748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23000748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23000748">
+ *** Starting with creation of VPN for SoftLayer (London) ***<br/>
+Successfully created VPN with name = SoftLayer (London) VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237105<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.createVPN2()'><b>createVPN2</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-20582888" onClick='toggleBox("Output-20582888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20582888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20582888">
+ *** Starting with creation of VPN for US-West ***<br/>
+Successfully created VPN with name = US-West VPN 871 and URL = https://test.skytap.com/vpns/vpn-4237107<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.B_AdminUserTest.deleteAdminUser()'><b>deleteAdminUser</b><br>Test class: com.test.skytap.B_AdminUserTest<br/>
+<a href="#Output-24871590" onClick='toggleBox("Output-24871590", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24871590" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24871590">
+ *** Deleting Admin User ***<br/>
+Successfully deleted admin user with id = https://test.skytap.com/users/305548<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.B_AdminUserTest@d62f43</td></tr>
+<tr>
+<td title='com.test.skytap.Y_DeleteResourcesTest.deleteAllEnvironments()'><b>deleteAllEnvironments</b><br>Test class: com.test.skytap.Y_DeleteResourcesTest<br/>
+<a href="#Output-12928176" onClick='toggleBox("Output-12928176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12928176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12928176">
+Deleting All Environments<br/>
+Successfully Deleted All Environments in Account<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.skytap.Y_DeleteResourcesTest@8e7350</td></tr>
+<tr>
+<td title='com.test.skytap.Y_DeleteResourcesTest.deleteAllExports()'><b>deleteAllExports</b><br>Test class: com.test.skytap.Y_DeleteResourcesTest<br/>
+<a href="#Output-32472017" onClick='toggleBox("Output-32472017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32472017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32472017">
+Export template URL = ftp://6s5uyu99D:8NETu9YPlX@ftp-uswest.test.skytap.com/upload/vm.7z<br/>
+Export Job Successfully deleted<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.skytap.Y_DeleteResourcesTest@8e7350</td></tr>
+<tr>
+<td title='com.test.skytap.Y_DeleteResourcesTest.deleteAllImports()'><b>deleteAllImports</b><br>Test class: com.test.skytap.Y_DeleteResourcesTest</td>
+<td></td>
+<td>20</td>
+<td>com.test.skytap.Y_DeleteResourcesTest@8e7350</td></tr>
+<tr>
+<td title='com.test.skytap.Y_DeleteResourcesTest.deleteAllTemplates()'><b>deleteAllTemplates</b><br>Test class: com.test.skytap.Y_DeleteResourcesTest<br/>
+<a href="#Output-25284575" onClick='toggleBox("Output-25284575", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25284575" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25284575">
+Successfully Deleted All Templates in Account<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.test.skytap.Y_DeleteResourcesTest@8e7350</td></tr>
+<tr>
+<td title='com.test.skytap.C_AssetsTest.deleteAsset()'><b>deleteAsset</b><br>Test class: com.test.skytap.C_AssetsTest<br/>
+<a href="#Output-29945073" onClick='toggleBox("Output-29945073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29945073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29945073">
+Successfully Deleted asset with id = https://test.skytap.com/assets/42210<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.C_AssetsTest@14b1c02</td></tr>
+<tr>
+<td title='com.test.skytap.B_AdminUserTest.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.test.skytap.B_AdminUserTest<br/>
+<a href="#Output-5192737" onClick='toggleBox("Output-5192737", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5192737" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5192737">
+Successfully logged in with Super User - qait_super<br/>
+Successfully deleted customer with name = QAIT Customer 1476356519794   and id = https://test.skytap.com/customers/12980<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.test.skytap.B_AdminUserTest@d62f43</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.deleteEnvironment()'><b>deleteEnvironment</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-12541071" onClick='toggleBox("Output-12541071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12541071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12541071">
+ *** Deleting Environments Linked to VPNs ***<br/>
+Successfully deleted environment - SoftLayer (London) Environment 871<br/>
+Successfully deleted environment - US-West Environment 871<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.B_AdminUserTest.deleteNonAdminUser()'><b>deleteNonAdminUser</b><br>Test class: com.test.skytap.B_AdminUserTest<br/>
+<a href="#Output-27854948" onClick='toggleBox("Output-27854948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27854948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27854948">
+ *** Deleting Non-Admin User ***<br/>
+Successfully deleted Non admin user with id = https://test.skytap.com/users/305550<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.B_AdminUserTest@d62f43</td></tr>
+<tr>
+<td title='com.test.skytap.D_ProjectsTest.deleteProject()'><b>deleteProject</b><br>Test class: com.test.skytap.D_ProjectsTest<br/>
+<a href="#Output-65065" onClick='toggleBox("Output-65065", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65065" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65065">
+Deleted Project successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.D_ProjectsTest@93dd95</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.deleteVPN()'><b>deleteVPN</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-13669773" onClick='toggleBox("Output-13669773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13669773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13669773">
+ *** Deleting VPNs ***<br/>
+Successfully Deleted VPN - SoftLayer (London) VPN 871<br/>
+Successfully Deleted VPN - US-West VPN 871<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.deleteVmAndEnv()'><b>deleteVmAndEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-16798325" onClick='toggleBox("Output-16798325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16798325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16798325">
+Delete VM Success, VM id = 7997126<br/>
+Delete Environment Success https://test.skytap.com/configurations/17527816?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.Q_ImportExportTest.exportVM()'><b>exportVM</b><br>Test class: com.test.skytap.Q_ImportExportTest</td>
+<td></td>
+<td>11</td>
+<td>com.test.skytap.Q_ImportExportTest@1baeedf</td></tr>
+<tr>
+<td title='com.test.skytap.G_PIPTest.fetchPIP()'><b>fetchPIP</b><br>Test class: com.test.skytap.G_PIPTest<br/>
+<a href="#Output-13186468" onClick='toggleBox("Output-13186468", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13186468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13186468">
+ *** Fetching Public IP ***<br/>
+Public IP Added public IP address 199.204.217.187 in region US-West. Successfully fetched<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.G_PIPTest@83b407</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.fetchPIP()'><b>fetchPIP</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-18537054" onClick='toggleBox("Output-18537054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18537054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18537054">
+ *** Starting with Fetching Public IPs for VPN TEST ***<br/>
+IP Address successfully fetched for SoftLayer (London)<br/>
+185.64.244.154<br/>
+IP Address successfully fetched for US-West<br/>
+199.204.217.187<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.insertISO()'><b>insertISO</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-7581046" onClick='toggleBox("Output-7581046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7581046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7581046">
+ISO successfuly inserted to Environment https://test.skytap.com/configurations/17527688?sort=name&thumbnails=shown&env_details_meta_info=1<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.noPasswordPortalMultipleVM()'><b>noPasswordPortalMultipleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>17</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.noPasswordPortalSingleVM()'><b>noPasswordPortalSingleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>1</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.passwordPortalMultipleVM()'><b>passwordPortalMultipleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>10</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.passwordPortalSingleVM()'><b>passwordPortalSingleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>10</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.powerActionsMultipleVM()'><b>powerActionsMultipleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>55</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.K_SharingPortalTest.powerActionsSingleVM()'><b>powerActionsSingleVM</b><br>Test class: com.test.skytap.K_SharingPortalTest</td>
+<td></td>
+<td>62</td>
+<td>com.test.skytap.K_SharingPortalTest@194d431</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.powerOffEnv()'><b>powerOffEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-7510753" onClick='toggleBox("Output-7510753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7510753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7510753">
+Environment Level Power-Off Success<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.powerOffVM()'><b>powerOffVM</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-32581410" onClick='toggleBox("Output-32581410", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32581410" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32581410">
+VM Level Power-Off Success<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.publishVM()'><b>publishVM</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-13467081" onClick='toggleBox("Output-13467081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13467081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13467081">
+ *** Starting with Creating a new sharing portal ***<br/>
+Created Sharing Portal with URL = https://test.skytap.com/configurations/17527688/publish_sets/84480?created=success<br/>
+Portal URL = https://test.skytap.com/vms/06c401dc92387760967ddd3e6cb1b298/desktops<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.G_PIPTest.releasePIP()'><b>releasePIP</b><br>Test class: com.test.skytap.G_PIPTest<br/>
+<a href="#Output-22298602" onClick='toggleBox("Output-22298602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22298602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22298602">
+ *** Releasing PIP ***<br/>
+Successfully released PIP Added public IP address 199.204.217.187 in region US-West.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.G_PIPTest@83b407</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.releasePIP()'><b>releasePIP</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-20432272" onClick='toggleBox("Output-20432272", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20432272" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20432272">
+ *** Releasing PIPs ***<br/>
+Successfully released PIP 185.64.244.154 for SoftLayer (London) Region<br/>
+Successfully released PIP 199.204.217.187 for US-West Region<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.runEnv()'><b>runEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-14816102" onClick='toggleBox("Output-14816102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14816102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14816102">
+Environment Level VM Run Success<br/>
+</div>
+</td>
+<td></td>
+<td>180</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.saveEnv()'><b>saveEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-8227105" onClick='toggleBox("Output-8227105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8227105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8227105">
+Save Environment to template success with id = https://test.skytap.com/templates/334821<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.V_ScheduleTest.schedulesList()'><b>schedulesList</b><br>Test class: com.test.skytap.V_ScheduleTest<br/>
+<a href="#Output-3522041" onClick='toggleBox("Output-3522041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3522041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3522041">
+Schedules owned by me found<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.test.skytap.V_ScheduleTest@42a311</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.searchTemplates()'><b>searchTemplates</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-12953841" onClick='toggleBox("Output-12953841", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12953841" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12953841">
+ *** Starting Templates and Environment Test ***<br/>
+Searched template successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.shutDownEnv()'><b>shutDownEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-5273217" onClick='toggleBox("Output-5273217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5273217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5273217">
+Environment Level Shut-Down Success<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.storageNoGroupingCurrentMonth()'><b>storageNoGroupingCurrentMonth</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-32418366" onClick='toggleBox("Output-32418366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32418366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32418366">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.storageNoGroupingLastMonth()'><b>storageNoGroupingLastMonth</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-28381801" onClick='toggleBox("Output-28381801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28381801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28381801">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.storageUsage()'><b>storageUsage</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-29353617" onClick='toggleBox("Output-29353617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29353617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29353617">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.storageUsageSuper()'><b>storageUsageSuper</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-32598869" onClick='toggleBox("Output-32598869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32598869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32598869">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.J_HelpPagesTest.superTab()'><b>superTab</b><br>Test class: com.test.skytap.J_HelpPagesTest<br/>
+<a href="#Output-18069100" onClick='toggleBox("Output-18069100", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18069100" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18069100">
+Help Page Accessible<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.skytap.J_HelpPagesTest@19c0f4a</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.suspendEnv()'><b>suspendEnv</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-32413909" onClick='toggleBox("Output-32413909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32413909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32413909">
+Environment Level Suspend Success<br/>
+</div>
+</td>
+<td></td>
+<td>223</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.E_TemplatesConfigurationsTest.suspendVM()'><b>suspendVM</b><br>Test class: com.test.skytap.E_TemplatesConfigurationsTest<br/>
+<a href="#Output-25642588" onClick='toggleBox("Output-25642588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25642588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25642588">
+VM Level Suspend<br/>
+</div>
+</td>
+<td></td>
+<td>226</td>
+<td>com.test.skytap.E_TemplatesConfigurationsTest@1622fdf</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.svmNoGroupingCurrentMonth()'><b>svmNoGroupingCurrentMonth</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-15999956" onClick='toggleBox("Output-15999956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15999956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15999956">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.svmNoGroupingLastMonth()'><b>svmNoGroupingLastMonth</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-2174222" onClick='toggleBox("Output-2174222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2174222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2174222">
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.I_UsageTest.svmUsageSuper()'><b>svmUsageSuper</b><br>Test class: com.test.skytap.I_UsageTest<br/>
+<a href="#Output-10258639" onClick='toggleBox("Output-10258639", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10258639" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10258639">
+Successfully logged in with Super User - qait_super<br/>
+Usage Report Successfully Generated<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.test.skytap.I_UsageTest@19d1a19</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.testVPN1()'><b>testVPN1</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-27103605" onClick='toggleBox("Output-27103605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27103605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27103605">
+ *** Testing VPN - SoftLayer (London) VPN 871 ***<br/>
+SoftLayer (London) VPN Results:<br/>
+Phase 1 result Pass<br/>
+Phase 2 result Pass<br/>
+Remote Ping Address Pass<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.S_VPNTest.testVPN2()'><b>testVPN2</b><br>Test class: com.test.skytap.S_VPNTest<br/>
+<a href="#Output-15296153" onClick='toggleBox("Output-15296153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15296153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15296153">
+ *** Testing VPN - US-West VPN 871 ***<br/>
+US-West VPN Results:<br/>
+Phase 1 result Pass<br/>
+Phase 2 result Pass<br/>
+Remote Ping Address Pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.test.skytap.S_VPNTest@13b32d7</td></tr>
+<tr>
+<td title='com.test.skytap.C_AssetsTest.uploadAsset()'><b>uploadAsset</b><br>Test class: com.test.skytap.C_AssetsTest<br/>
+<a href="#Output-10063102" onClick='toggleBox("Output-10063102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10063102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10063102">
+ *** Starting with Asset Upload ***<br/>
+Successfully uploaded asset with id = https://test.skytap.com/assets/42210<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.test.skytap.C_AssetsTest@14b1c02</td></tr>
+</table><p>
+</body>
+</html>

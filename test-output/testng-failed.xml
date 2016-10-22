@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Command line suite]" parallel="tests">
+  <test name="Skytap Test">
+    <classes>
+      <class name="com.test.skytap.A_SuperUserTest">
+        <methods>
+          <include name="createCustomer"/>
+          <include name="createAdminUser"/>
+        </methods>
+      </class> <!-- com.test.skytap.A_SuperUserTest -->
+      <class name="com.test.skytap.B_AdminUserTest">
+        <methods>
+          <include name="createAdminUser"/>
+          <include name="createNonAdminUser"/>
+          <include name="deleteNonAdminUser"/>
+          <include name="deleteAdminUser"/>
+          <include name="deleteCustomer"/>
+        </methods>
+      </class> <!-- com.test.skytap.B_AdminUserTest -->
+      <class name="com.test.skytap.C_AssetsTest">
+        <methods>
+          <include name="uploadAsset"/>
+          <include name="deleteAsset"/>
+        </methods>
+      </class> <!-- com.test.skytap.C_AssetsTest -->
+      <class name="com.test.skytap.D_ProjectsTest">
+        <methods>
+          <include name="createProject"/>
+          <include name="addTemplateToProject"/>
+          <include name="addEnvironmentToProject"/>
+          <include name="addAssetToProject"/>
+          <include name="addUserToProject"/>
+          <include name="deleteProject"/>
+        </methods>
+      </class> <!-- com.test.skytap.D_ProjectsTest -->
+      <class name="com.test.skytap.E_TemplatesConfigurationsTest">
+        <methods>
+          <include name="searchTemplates"/>
+          <include name="createTemplate"/>
+          <include name="createAndRunVmInEnvironment"/>
+          <include name="addTemplateToEnvironment"/>
+          <include name="insertISO"/>
+          <include name="suspendVM"/>
+          <include name="shutDownVM"/>
+          <include name="powerOffVM"/>
+          <include name="runEnv"/>
+          <include name="suspendEnv"/>
+          <include name="shutDownEnv"/>
+          <include name="powerOffEnv"/>
+          <include name="publishVM"/>
+          <include name="saveEnv"/>
+          <include name="deleteVmAndEnv"/>
+        </methods>
+      </class> <!-- com.test.skytap.E_TemplatesConfigurationsTest -->
+      <class name="com.test.skytap.G_PIPTest">
+        <methods>
+          <include name="fetchPIP"/>
+          <include name="releasePIP"/>
+        </methods>
+      </class> <!-- com.test.skytap.G_PIPTest -->
+      <class name="com.test.skytap.I_UsageTest">
+        <methods>
+          <include name="svmUsage"/>
+          <include name="storageUsage"/>
+          <include name="svmNoGroupingCurrentMonth"/>
+          <include name="storageNoGroupingCurrentMonth"/>
+          <include name="svmNoGroupingLastMonth"/>
+          <include name="storageNoGroupingLastMonth"/>
+          <include name="svmUsageSuper"/>
+          <include name="storageUsageSuper"/>
+        </methods>
+      </class> <!-- com.test.skytap.I_UsageTest -->
+      <class name="com.test.skytap.J_HelpPagesTest">
+        <methods>
+          <include name="superTab"/>
+          <include name="adminTab"/>
+        </methods>
+      </class> <!-- com.test.skytap.J_HelpPagesTest -->
+      <class name="com.test.skytap.K_SharingPortalTest">
+        <methods>
+          <include name="createSharingPortal"/>
+          <include name="noPasswordPortalSingleVM"/>
+          <include name="passwordPortalSingleVM"/>
+          <include name="AccessPSTSingleVM"/>
+          <include name="AccessISTSingleVM"/>
+          <include name="powerActionsSingleVM"/>
+          <include name="noPasswordPortalMultipleVM"/>
+          <include name="passwordPortalMultipleVM"/>
+          <include name="AccessPSTMultipleVM"/>
+          <include name="AccessISTMultipleVM"/>
+          <include name="powerActionsMultipleVM"/>
+        </methods>
+      </class> <!-- com.test.skytap.K_SharingPortalTest -->
+      <class name="com.test.skytap.L_PublishedServicesTest">
+        <methods>
+          <include name="addByName"/>
+          <include name="addByPort"/>
+        </methods>
+      </class> <!-- com.test.skytap.L_PublishedServicesTest -->
+      <class name="com.test.skytap.Q_ImportExportTest">
+        <methods>
+          <include name="exportVM"/>
+          <include name="importVM"/>
+        </methods>
+      </class> <!-- com.test.skytap.Q_ImportExportTest -->
+      <class name="com.test.skytap.R_ConnectivityTest">
+        <methods>
+          <include name="connectivity"/>
+        </methods>
+      </class> <!-- com.test.skytap.R_ConnectivityTest -->
+      <class name="com.test.skytap.S_VPNTest">
+        <methods>
+          <include name="fetchPIP"/>
+          <include name="createRunEnviornments"/>
+          <include name="createVPN1"/>
+          <include name="createVPN2"/>
+          <include name="connectVPNs"/>
+          <include name="testVPN1"/>
+          <include name="testVPN2"/>
+          <include name="deleteVPN"/>
+          <include name="deleteEnvironment"/>
+          <include name="releasePIP"/>
+        </methods>
+      </class> <!-- com.test.skytap.S_VPNTest -->
+      <class name="com.test.skytap.V_ScheduleTest">
+        <methods>
+          <include name="createScheduleAdmin"/>
+          <include name="createScheduleNonAdmin"/>
+          <include name="schedulesList"/>
+        </methods>
+      </class> <!-- com.test.skytap.V_ScheduleTest -->
+      <class name="com.test.skytap.X_Support_Request_Form">
+        <methods>
+          <include name="clickSupportLink"/>
+          <include name="submitForm"/>
+          <include name="caseGenerateVerify"/>
+        </methods>
+      </class> <!-- com.test.skytap.X_Support_Request_Form -->
+      <class name="com.test.skytap.Y_DeleteResourcesTest">
+        <methods>
+          <include name="deleteAllEnvironments"/>
+          <include name="deleteAllTemplates"/>
+          <include name="deleteAllExports"/>
+          <include name="deleteAllImports"/>
+          <include name=""/>
+        </methods>
+      </class> <!-- com.test.skytap.Y_DeleteResourcesTest -->
+    </classes>
+  </test> <!-- Skytap Test -->
+  <test name="Skytap Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.skytap.Y_DeleteResourcesTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="fail"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.Y_DeleteResourcesTest -->
+      <class name="com.test.skytap.K_SharingPortalTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+          <include name="clickLeavePageOnPopUp"/>
+        </methods>
+      </class> <!-- com.test.skytap.K_SharingPortalTest -->
+      <class name="com.test.skytap.G_PIPTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.G_PIPTest -->
+      <class name="com.test.skytap.A_SuperUserTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.A_SuperUserTest -->
+      <class name="com.test.skytap.I_UsageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="sendEmailableReport"/>
+          <include name="beforeClass"/>
+          <include name="svmUsage"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.I_UsageTest -->
+      <class name="com.test.skytap.L_PublishedServicesTest">
+        <methods>
+          <include name="fail"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.L_PublishedServicesTest -->
+      <class name="com.test.skytap.S_VPNTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="fail"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.S_VPNTest -->
+      <class name="com.test.skytap.C_AssetsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.C_AssetsTest -->
+      <class name="com.test.skytap.V_ScheduleTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.V_ScheduleTest -->
+      <class name="com.test.skytap.R_ConnectivityTest">
+        <methods>
+          <include name="fail"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.R_ConnectivityTest -->
+      <class name="com.test.skytap.E_TemplatesConfigurationsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+          <include name="shutDownVM"/>
+        </methods>
+      </class> <!-- com.test.skytap.E_TemplatesConfigurationsTest -->
+      <class name="com.test.skytap.Q_ImportExportTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="importVM"/>
+          <include name="afterClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.Q_ImportExportTest -->
+      <class name="com.test.skytap.D_ProjectsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.D_ProjectsTest -->
+      <class name="com.test.skytap.B_AdminUserTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.test.skytap.B_AdminUserTest -->
+      <class name="com.test.skytap.J_HelpPagesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fail"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.skytap.J_HelpPagesTest -->
+    </classes>
+  </test> <!-- Skytap Test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
